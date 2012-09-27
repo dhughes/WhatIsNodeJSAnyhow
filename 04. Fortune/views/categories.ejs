@@ -1,0 +1,10 @@
+<h1>Fortune Categories:</h1>
+
+<ul>
+    <% for(var i in categories) { %>
+        <li><a href="/category/<%= categories[i].categoryId %>"><%= categories[i].category %></a></li>
+    
+    <% } %>
+</ul>
+        
+<p><a href="/">Home</a></p>
